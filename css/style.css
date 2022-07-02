@@ -1,0 +1,194 @@
+:root {
+  --color-focus: #2196f3;
+  --color-text-darck: #212121;
+  --color-text-light: #757575;
+  --color-text-white: #ffffff;
+  --color-bg-darck: #2f303a;
+  --color-bg-light: #f5f4fa;
+  --color-bg-white: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', 'Raleway';
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.list-none-style {
+  list-style: none;
+}
+
+.link-item {
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link-item:hover,
+.link-item:focus {
+  color: var(--color-focus);
+}
+
+.contacts-link {
+  color: var(--color-text-light);
+}
+
+/* Header section */
+
+.site-logo {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.logo-item {
+  color: var(--color-focus);
+}
+
+.header-item {
+  color: var(--color-text-darck);
+}
+
+.header-active {
+  color: var(--color-focus);
+}
+
+/* Main section */
+
+.main-section {
+  background-color: var(--color-bg-darck);
+}
+
+.main-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-white);
+}
+
+.main-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--color-text-white);
+  background-color: var(--color-focus);
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+}
+
+/* About section */
+
+.about-title {
+  font-size: inherit;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--color-text-darck);
+}
+
+.about-text {
+  line-height: 1.17;
+  color: var(--color-text-light);
+}
+
+/* Work section */
+
+.work-title {
+  font-size: 36px;
+  line-height: 1.67;
+}
+
+/* Team section */
+.team-secrion {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--color-text-darck);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--color-text-darck);
+}
+
+.team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--color-text-light);
+}
+
+/* Footer section */
+.footer {
+  background-color: var(--color-bg-darck);
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer > .site-logo {
+  color: var(--color-text-white);
+}
+
+.footer-addres-item {
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--color-text-white);
+}
+
+/* Page portfolio */
+/* Portfolio section*/
+
+.portfolio-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--color-text-darck);
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: var(--color-focus);
+  color: var(--color-text-white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-work-item {
+  border: 1px solid #eeeeee;
+}
+.portfolio-work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-text-darck);
+}
+.portfolio-work-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--color-text-light);
+}
