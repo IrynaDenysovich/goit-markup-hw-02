@@ -74,6 +74,7 @@ body {
 }
 
 .main-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -95,7 +96,7 @@ body {
 }
 
 .about-text {
-  line-height: 1.17;
+  line-height: 1.71;
   color: var(--color-text-light);
 }
 
@@ -137,6 +138,9 @@ body {
 }
 
 .footer-link {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -147,6 +151,7 @@ body {
 .footer-addres-item {
   font-weight: 400;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--color-text-white);
 }
 
